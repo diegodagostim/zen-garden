@@ -1,6 +1,9 @@
-body {
+* {
   margin: 0;
   padding: 0;
+}
+
+body {
   background-color: #efeee7;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #333333;
@@ -11,11 +14,14 @@ header {
 }
 
 h1 {
+  margin-left: 15px;
   color: #eee;
   font-size: 28px;
 }
 
 h2 {
+  margin-top: 20px;
+  margin-left: 10px;
   font-size: 24px;
 }
 
@@ -23,24 +29,31 @@ h2 {
   margin: 0 auto;
 }
 
-.main-bio,
-.contact-info,
-.bio-image {
+#bio-image {
+  width: 200px;
+  margin: 5px;
   float: left;
 }
 
-.bio-image {
-  width: 200px;
-  margin: 5px;
-}
-
-.main-bio {
+#main-bio {
   width: 70%;
+  float: left;
 }
-.contact-info {
+#contact-info {
   width: 30%;
+  float: left;
 }
 
 a {
   color: red;
+}
+
+p {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.ul {
+  margin-top: 15px;
+  margin-left: 10px;
 }
